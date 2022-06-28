@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import com.example.dabang_aromprj.Board.BoardFragment
-import com.example.dabang_aromprj.Book.BookFragment
+import com.example.dabang_aromprj.Reserve.ReserveFragment
 import com.example.dabang_aromprj.Category.CategoryFragment
 import com.example.dabang_aromprj.Home.HomeFragment
 import com.example.dabang_aromprj.Myinfo.MyinfoFragment
@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity(),BottomNavigationView.OnNavigationItemSe
                 return true
             }
             R.id.item4 -> {
-                supportFragmentManager.beginTransaction().replace(R.id.main_container,BookFragment()).commit()
+                supportFragmentManager.beginTransaction().replace(R.id.main_container,ReserveFragment()).commit()
                 return true
             }
             R.id.item5 -> {

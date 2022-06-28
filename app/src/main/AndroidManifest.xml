@@ -5,10 +5,58 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_main"
-        android:roundIcon="@mipmap/ic_main_round"
         android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_main_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Dabang_aromPrj">
+        <activity
+            android:name=".Myinfo.RecentThemeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Myinfo.MyPostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Myinfo.MyReviewDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Myinfo.MyReviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Myinfo.FavoriteListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Board.BoardPostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Reserve.AddReserveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReviewWrite2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ReviewWrite1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ReviewDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReviewListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThemeDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Home.CafeListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Home.KeywordSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Home.SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

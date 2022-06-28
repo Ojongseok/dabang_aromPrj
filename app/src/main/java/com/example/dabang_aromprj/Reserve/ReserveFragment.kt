@@ -1,4 +1,4 @@
-package com.example.dabang_aromprj.Book
+package com.example.dabang_aromprj.Reserve
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.dabang_aromprj.R
 
-class BookFragment : Fragment() {
+class ReserveFragment : Fragment() {
    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_book, container, false)
     }

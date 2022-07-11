@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "209153479002",
+    "project_id": "aromprj",
+    "storage_bucket": "aromprj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209153479002:android:eb1bfe228407441b0f2363",
+        "android_client_info": {
+          "package_name": "com.example.dabang_aromprj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209153479002-n8360mnsj66p3b2ofqh8fh42523gilpk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHccrlTEVUQd_LTnNVQT_GqU8UwPKkaxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209153479002-n8360mnsj66p3b2ofqh8fh42523gilpk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

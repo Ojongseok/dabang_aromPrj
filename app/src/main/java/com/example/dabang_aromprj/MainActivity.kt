@@ -18,8 +18,6 @@ class MainActivity : AppCompatActivity(),BottomNavigationView.OnNavigationItemSe
 
         bottomNavigationView.setOnNavigationItemSelectedListener(this)
         bottomNavigationView.selectedItemId = R.id.item1
-
-
     }
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when(item.itemId) {
